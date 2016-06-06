@@ -13,11 +13,11 @@ Threads = require 'threads'
 --Threads.serialization('threads.sharedserialize')
 model_weights='model_weights/VGG_ILSVRC_19_layers.caffemodel'
 model_proto='model_weights/VGG_ILSVRC_19_layers_deploy.prototxt'
-input_shot='shot_frame_201.json'
-save_prefix=''
+input_shot='data/shot_frame_201.json'
+save_prefix='data/'
 batch_size=100
 local loadSize={3,256,256}
-test_model=true
+test_model=false
 video_start=0
 video_end=243
 GPU_ID=4

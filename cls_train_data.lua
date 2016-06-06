@@ -1,7 +1,7 @@
 require 'hdf5'
 featTotal=nil
 stride=70
-load_prefix='/datacenter/2/tv16ins_feat_video'
+load_prefix='/datacenter/2/tv16ins_feat_video/'
 
 function getFeatByFileName(fileName)
     local file=hdf5.open(fileName,'r')
@@ -19,7 +19,8 @@ end
 --feat=getFeatByFileName('1.h5')
 
 for i=1,223 do
-    local fileName = load_prefix .. 'video_' .. vidtostring(i) .. '.h5'
+    print('processing ' .. load_prefix .. 'video_' .. i .. '.h5')
+    local fileName = load_prefix .. 'video_' .. i .. '.h5'
     local feat = getFeatByFileName(fileName)
     if featTotal == nil then
         featTotal = feat
