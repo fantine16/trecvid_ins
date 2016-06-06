@@ -7,8 +7,8 @@ import numpy as np
 import numpy.random as npr
 from mpi4py import MPI	
 
-train_data = 'rawData.h5'
-cls_data = 'cls.h5'
+train_data = '../../data/clsTrainData.h5'
+cls_data = '../../data/clst.h5'
 clusters_num = 1000000
 
 

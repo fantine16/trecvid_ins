@@ -1,7 +1,7 @@
 require 'hdf5'
 featTotal=nil
 stride=70
-load_prefix=''
+load_prefix='/datacenter/2/tv16ins_feat_video'
 
 function getFeatByFileName(fileName)
     local file=hdf5.open(fileName,'r')
@@ -30,6 +30,6 @@ end
 
 torch.type(featTotal)
 
-out=hdf5.open('rawData.h5','w')
+out=hdf5.open('data/clsTrainData.h5','w')
 out:write('data',featTotal)
 out:close()
