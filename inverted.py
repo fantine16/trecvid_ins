@@ -13,9 +13,9 @@ shot_2_ix={}
 ix_2_shot={}
 #inverted index
 inverted_ix={}
-inverted_ix_save='data/inverted_ix.pkl'
-shot_2_ix_save='data/shot_2_ix.pkl'
-ix_2_shot_save='data/ix_2_shot.pkl'
+inverted_ix_save='data/inverted_ix.pkl1'
+shot_2_ix_save='data/shot_2_ix.pkl1'
+ix_2_shot_save='data/ix_2_shot.pkl1'
 
 def init() :
     #load bow features of 244 videos to bow_feat list

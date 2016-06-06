@@ -12,7 +12,9 @@
 - prepro.MD， 数据预处理
 
 
-- feat_extrator_threads.MD， 提取conv5特征
-- cls_train_data.MD， 生成聚类训练数据
-- fastcluster.MD， 聚类
+- feat_extrator_threads.lua， 提取conv5特征
+- cls_train_data.lua， 生成聚类训练数据
+- fastcluster.py， 聚类
+- bow_extrator.py，计算shot的bow特征
+- inverted.py，建立倒排表
 - /evaluation， 评价和计算MAP
