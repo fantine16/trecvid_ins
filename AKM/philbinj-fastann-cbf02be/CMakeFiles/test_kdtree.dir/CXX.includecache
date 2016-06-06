@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/fastann.hpp
+rand_point_gen.hpp
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/rand_point_gen.hpp
+
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/rand_point_gen.hpp
+randomkit.h
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/randomkit.h
+
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/randomkit.h
+stddef.h
+-
+
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/test_kdtree.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+vector
+-
+stdint.h
+-
+fastann.hpp
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/fastann.hpp
+rand_point_gen.hpp
+/home/liuchang/Desktop/AMK/philbinj-fastann-cbf02be/rand_point_gen.hpp
+

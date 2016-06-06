@@ -1,0 +1,17 @@
+The code base for trec_eval_video is trec_eval version 8.1
+
+trec_eval.h has been modified and recompiled to extend the list of
+cutoff values beyond 1000 to 2000 to accommodate results sets of up to
+2000 items TRECVID accepts in the feature extraction task. It also
+holds the max result set size passed when trec_eval is called.
+
+trvec_teval.c has been changed for TRECVID to calculate
+non-interpolated average precision by dividing the precision sum by
+the max result set size rather than the number relevant iff the number
+relevant is greater than the max result set size. 
+
+trec_eval.c has been changed so max result set size can be passed as a
+parameter to this version of trec_eval.c. This is for use in TRECVID
+where (for features) the number true may be larger than the max result
+set size (2000) and for search the number relevant may be more than
+1000.
